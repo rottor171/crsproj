@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row main-block">
+    <div class="col-md-7 left-bar">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active bank-1">
+                    
+                    <div class="carousel-caption" role="option">
+                       
+                    </div>
+                </div>
+                <div class="item bank-2">
+                    <div class="carousel-caption" role="option">
+                        <h1>BANK DB</h1>
+                        <h2>The best bank of the europe</h2>
+                    </div>
+                </div>
+                <div class="item bank-3">
+                    <div class="carousel-caption" role="option">
+                        
+                    </div>
+                </div>
+             
+            </div>
+           
+        </div>
+    </div>
+    <div class="col-md-5 right-bar">
+        <div class="header">
+            <h4><strong>Авторизация</strong></h4>
+        </div>
+        <hr>
+        <div class="forms admin text-left">
+            <label for="username">Логин</label>
+            <div class="input-group  input-group-lg">
+                <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                <input type="text" class="form-control" id="staffLogin" placeholder="John Dope" aria-describedby="sizing-addon2">
+            </div>
+            <label for="username">Пароль</label>
+            <div class="input-group  input-group-lg">
+                <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+                <input type="password" class="form-control" id="staffPassword" placeholder="mypass" aria-describedby="sizing-addon2">
+            </div>
+            <input type="button" class="btn btn-lg" id="enter" value="Вход" />
+            <input type="button" class="btn btn-lg" id="register" value="Регистрация" />
+ 
+        </div>
+    </div>
+
+</div>
+

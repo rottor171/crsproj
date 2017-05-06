@@ -1,0 +1,60 @@
+@model WebApplicationWithPostgresSQL.Deposit
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Deposit</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cash)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cash)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PercentPerYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PercentPerYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBegin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBegin)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfEnd)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfEnd)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Commentary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Commentary)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepClientNoNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepClientNoNavigation.Fname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepStaffNoNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepStaffNoNavigation.Fname)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.DepositNo">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

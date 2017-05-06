@@ -1,0 +1,61 @@
+@model WebApplicationWithPostgresSQL.Deposit
+
+@{
+    Layout = null;
+}
+
+<h2> Found deposit details</h2>
+
+<div>
+    <h4>Deposit</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cash)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cash)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PercentPerYear)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PercentPerYear)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBegin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBegin)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfEnd)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfEnd)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Commentary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Commentary)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepClientNoNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepClientNoNavigation.Fname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepStaffNoNavigation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepStaffNoNavigation.Fname)
+        </dd>
+    </dl>
+</div>
+
+<h4>Other contracts of this Client</h4>
+<hr />
+
+@Html.Partial("PartialSearch", (IEnumerable<WebApplicationWithPostgresSQL.Deposit>)ViewBag.MyModel)

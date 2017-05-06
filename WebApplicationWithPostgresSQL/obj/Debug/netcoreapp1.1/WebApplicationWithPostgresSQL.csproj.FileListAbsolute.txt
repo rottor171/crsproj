@@ -1,0 +1,35 @@
+c:\users\denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.deps.json
+c:\users\denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.json
+c:\users\denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.dev.json
+c:\users\denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+c:\users\denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.AssemblyInfo.cs
+C:\Users\Denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+C:\Users\Denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+C:\Users\Denis32\documents\visual studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+C:\Users\Denis32\Documents\Visual Studio 2017\Projects\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.csprojResolveAssemblyReference.cache
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.deps.json
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.json
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.dev.json
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.csprojResolveAssemblyReference.cache
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.AssemblyInfo.cs
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+C:\Users\Sergey_Zavada\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.deps.json
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.json
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.dev.json
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.AssemblyInfo.cs
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+C:\Users\Denis32\Desktop\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.deps.json
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.json
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.runtimeconfig.dev.json
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.AssemblyInfo.cs
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.dll
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\bin\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.pdb
+E:\denis_32\Универ Литература\3 КУРС\C РАБОЧЕГО СТОЛА ВАЖНО\WebApplicationWithPostgresSQL\WebApplicationWithPostgresSQL\obj\Debug\netcoreapp1.1\WebApplicationWithPostgresSQL.csprojResolveAssemblyReference.cache

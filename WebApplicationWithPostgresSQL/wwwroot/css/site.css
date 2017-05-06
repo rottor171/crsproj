@@ -1,0 +1,352 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #ecf0f1;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.carousel {
+    height: 700px;
+}
+
+.right-bar, .left-bar {
+    height: 700px;
+    background-color: #fff;
+}
+
+.icon {
+    margin: 60px 0px;
+}
+
+.icon:first-of-type {
+    padding-left: 40px;
+}
+
+.icon:last-of-type {
+    padding-right: 40px;
+}
+
+.icon div {
+    padding-top: 15px;
+    width: 200px;
+    border: solid 3px;
+    border-radius: 20px;
+    height: 150px;
+    margin: auto;
+    transition: all 0.15s linear;
+}
+
+.icon div:hover {
+    cursor: pointer;
+    border-color: #2980b9;
+}
+
+.icon .glyphicon {
+    font-size: 60px;
+}
+
+.left-bar, .right-bar {
+    transition: transform linear 0.3s;
+}
+
+.main-block {
+    margin-top: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: solid 1px rgba(82, 82, 82, 0.17);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px;
+    background-color: #fff;
+    height: 700px;
+}
+
+.admin-panel {
+
+}
+
+.header {
+    position: relative;
+}
+
+.header .back {
+    position: absolute;
+    left: 1px;
+    font-size: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.header .createNew {
+    position: absolute;
+    right: 1px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+ .header .createNew .glyphicon{
+     margin-left: 5px;
+ }
+.header .back:hover, .header .createNew:hover {
+    cursor: pointer;
+}
+
+.header .back .glyphicon, .header .createNew .glyphicon {
+    font-size: 24px;
+    color: #b3b3b3;
+}
+
+.header .back:hover .glyphicon {
+    color: black;
+}
+
+.header .createNew:hover .glyphicon {
+    color: #20c327;
+}
+
+.forms {
+    padding: 50px;
+}
+
+.forms input[type="button"] {
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #2980b9;
+    border-radius: 50px;
+    float: right;
+    font-weight: bolder;
+    color: #2980b9;
+    width: auto;
+    transition: all 0.15s linear;
+}
+
+#register {
+    float: left;
+}
+
+.bank-1 {
+    background: url(/images/bank1.jpg);
+    background-position: center;
+    background-size: 950px;
+}
+
+.bank-2 {
+    background: url(/images/bank2.jpg);
+    background-position: center;
+    background-size: 950px;
+}
+
+.bank-3 {
+    background: url(/images/bank3.jpg);
+    background-position: center;
+    background-size: 1000px;
+}
+
+.forms input[type="button"]:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.forms span {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+.forms input[type="text"], .forms input[type="password"] {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(146, 146, 146, 0.6);
+    box-shadow: none;
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+
+.forms input[type="text"]:focus, .forms input[type="password"]:focus {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #2980b9;
+    box-shadow: none;
+}
+
+.forms label {
+    font-size: 15px;
+}
+
+div.input-group {
+    margin-bottom: 30px;
+}
+
+.right-bar {
+    padding: 30px;
+    border-left: 1px solid #eee;
+}
+
+
+.active {
+    color: #2980b9!important;
+}
+
+.right-bar hr {
+    width: 100%;
+    height: 1px;
+    margin: 0!important;
+    border-top: 1px solid #black;
+}
+
+.col-md-7, .col-md-5 {
+    padding: 0!important;
+}
+
+.nav-select-user {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.nav-select-user li {
+    display: inline-block;
+}
+
+.header h4 {
+    display: block;
+    padding: 15px 50px;
+    color: #3498db;
+}
+
+.nav-select-user li a:hover, .nav-select-user li a:focus, .nav-select-user li a:active {
+    text-decoration: none;
+}
+
+.nav-select-user li {
+    transition: all 0.12s linear;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.nav-select-user li:hover {
+    border-bottom: 2px solid #3498db;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+.carousel .item {
+    height: 700px;
+}
+
+.carousel-caption {
+    left: 10%;
+    right: 10%;
+    top: 30%;
+}
+
+.carousel-caption h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    color: #f9f9f9;
+    margin-bottom: 0;
+}
+
+.carousel-caption h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #f9f9f9;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: left;
+    list-style: none;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+/* BEST CSS */
+.back {
+    /*margin: 20px auto;*/
+}
+
+.inside {
+    display: inline-block;
+    background-color: burlywood;
+    margin: 15px auto;
+    text-align: left;
+    width: 40%;
+    vertical-align: middle;
+    height: 500px;
+}
+
+.table {
+    font-size: 17px;
+}
+.table td   {
+    text-align: left;
+}
+
+.table .actions {
+   text-align: right;
+}
+
+.table .actions .glyphicon {
+    font-size: 20px;
+    margin: 0px 7px;
+    opacity:0.51;
+    transition: all linear 0.12s;
+}
+
+.table .actions .glyphicon:hover {
+    opacity: 1;
+}
+
+.table .actions .glyphicon-pencil {
+    color: rgb(37, 118, 187);
+}
+
+.table .actions .glyphicon-info-sign {
+    color: rgb(74, 74, 74);
+}
+
+.table .actions .glyphicon-remove {
+   color: rgb(255, 0, 0);
+}
+
+table tbody tr td:first-child, table thead tr th:first-child {
+    padding-left: 40px;
+}
+
+table tbody tr td:last-child, table thead tr th:last-child {
+    padding-right : 40px;
+}
+

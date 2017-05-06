@@ -1,0 +1,67 @@
+@{
+    Layout = null;
+}
+
+<div class="admin-panel">
+
+    <div class="header">
+        <h2><strong>Control Panel</strong></h2>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-4 icon" id="buttonBranches"><div><span class="glyphicon glyphicon-home"></span><h2>Branches</h2></div></div>
+        <div class="col-md-4 icon" id="buttonStaff"><div><span class="glyphicon glyphicon-briefcase"></span><h2>Staff</h2></div></div>
+        <div class="col-md-4 icon" id="buttonClients"><div><span class="glyphicon glyphicon-user"></span><h2>Clients</h2></div></div>
+    </div>                 
+    <div class="row">      
+        <div class="col-md-4 icon" id="buttonContracts"><div><span class="glyphicon glyphicon-folder-open"></span><h2>Contracts</h2></div></div>
+        <div class="col-md-4 icon" id="buttonSearch"><div><span class="glyphicon glyphicon-search"></span><h2>Search</h2></div></div>
+        <div class="col-md-4 icon" id="buttonLogOut"><div><span class="glyphicon glyphicon-log-out"></span><h2>Log out</h2></div></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('#buttonBranches').click(function (e) {
+            e.preventDefault();
+
+            ajaxFunction('@Url.Action("Index", "Branches")');
+	 	})
+        $('#buttonStaff').click(function(e) {
+             e.preventDefault();
+
+            ajaxFunction('@Url.Action("Index", "Staffs")');
+	 	})
+        $('#buttonClients').click(function(e) {
+             e.preventDefault();
+
+            ajaxFunction('@Url.Action("Index", "Clients")');
+	 	})
+        $('#buttonContracts').click(function(e) {
+             e.preventDefault();
+
+            ajaxFunction('@Url.Action("Index", "Deposits")');
+	 	})
+        $('#buttonSearch').click(function(e) {
+             e.preventDefault();
+            
+            ajaxFunction('@Url.Action("Search", "Home")');
+        })
+        $('#buttonLogOut').click(function(e) {
+             e.preventDefault();
+
+            //TODO: ¬Œ«¬–¿Ÿ¿“‹ Õ¿ √À¿¬Õ€”ﬁ —“–¿Õ»÷” » ƒ≈À¿“‹ ¿ÕÀŒ√
+            ajaxFunction('@Url.Action("Search", "Home")');
+        })
+
+        function ajaxFunction(url) {
+	 	    $.ajax({
+	 	    	url: url,
+	 	    	success: function(data) {
+                        $(".main-block").html(data);
+	 	    	}
+	 	    });
+        }
+	})
+</script>

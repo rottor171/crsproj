@@ -1,0 +1,62 @@
+@model IEnumerable<WebApplicationWithPostgresSQL.Deposit>
+
+@{
+    Layout = null;
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cash)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PercentPerYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBegin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfEnd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Commentary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepClientNoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepStaffNoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cash)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PercentPerYear)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBegin)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfEnd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Commentary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepClientNoNavigation.Fname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DepStaffNoNavigation.Fname)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

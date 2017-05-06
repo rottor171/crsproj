@@ -1,0 +1,83 @@
+@model IEnumerable<WebApplicationWithPostgresSQL.Branch>
+
+@{
+    Layout = null;
+}
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('#backToPanel').click(function (e) {
+            e.preventDefault();
+
+            ajaxFunction('@Url.Action("AdminPanel", "Home", new { login = "1", password = "1" }, null)' ); // TODO: login password
+        })
+
+        $('#createNew').click(function(e) {
+             e.preventDefault();
+             console.log("test");
+
+            ajaxFunction('@Url.Action("Create", "Branches")');
+         })
+
+         function ajaxFunction(url) {
+             $.ajax({
+                 url: url,
+                 success: function (data) {
+                     $(".main-block").html(data);
+                 }
+             });
+         }
+	 })
+</script>
+
+
+
+    <div class="header">
+        <span class="back" id="backToPanel"><span class="glyphicon glyphicon-chevron-left"></span>Back</span>
+        <span class="createNew" id="createNew">Create<span class="glyphicon glyphicon-plus"></span></span>
+        <h2><strong>Branches</strong></h2>
+        
+        <!--<input type="button" class="btn btn-lg" id="createNew" value="Create New" />-->
+    </div>
+    <hr>
+
+<p>
+    
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Street)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Director)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Street)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Director)
+            </td>
+            <td class="actions">
+                <a asp-action="Edit" asp-route-id="@item.BranchNo"><span class="glyphicon glyphicon-pencil"></span></a> 
+                <a asp-action="Details" asp-route-id="@item.BranchNo"><span class="glyphicon glyphicon-info-sign"></span></a> 
+                <a asp-action="Delete" asp-route-id="@item.BranchNo"><span class="glyphicon glyphicon-remove"></span></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
